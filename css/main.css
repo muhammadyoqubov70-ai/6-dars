@@ -91,12 +91,22 @@ body {
   .img-a {
     display: none;
   }
-
+  .img-logo1 {
+    width: 113px;
+    height: 44px;
+  }
   .img-contact {
     display: flex;
   }
   .header-b h1 {
     font-size: 50px;
     text-align: center;
+  }
+  .img-contact {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
   }
 }
