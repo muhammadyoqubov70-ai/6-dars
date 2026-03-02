@@ -66,14 +66,21 @@ body {
   }
 }
 
-.More-container {
+.container.main-v {
+  display: flex;
   padding-top: 82px;
+  padding-bottom: 100px;
 }
 .img-main {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 135px;
+  padding-top: 82px;
+  padding-bottom: 82px;
+  background-color: #fff4d8;
+  flex-grow: 1;
+  flex-wrap: wrap;
 
   p {
     width: 554px;
@@ -85,9 +92,9 @@ body {
     font-size: 50px;
     line-height: 50px;
     font-weight: 400;
-    padding-bottom: 33px;
   }
 }
+
 button {
   padding: 20px 30px;
   color: aliceblue;
@@ -98,6 +105,51 @@ button {
   font-weight: 400;
   line-height: 20px;
   letter-spacing: -0.33px;
+}
+.section2 {
+  background-color: #3d210c;
+}
+.container-ber.container h4 {
+  color: antiquewhite;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -0.33px;
+  font-family: "Lobster";
+  padding-bottom: 30px;
+  padding-top: 52px;
+}
+.berf {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 69px;
+  padding-bottom: 41px;
+}
+.berf h3 {
+  padding-top: 34px;
+  padding-bottom: 31px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.33px;
+  color: #fff4d8;
+}
+.berf span {
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.33px;
+  font-weight: 400;
+  color: #fff4d8;
+  align-self: center;
+}
+.main-3 {
+  text-align: center;
+}
+.main-4 {
+  text-align: end;
 }
 
 @media (max-width: 900px) {
@@ -119,7 +171,10 @@ button {
     width: 487px;
     height: 437px;
   }
-  .img-main-text {
+  .img-main container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .img-main-text a {
     width: 518px;
