@@ -88,4 +88,15 @@ body {
   .header-b {
     background-image: url("../img/\ coffee-phone-version.png");
   }
+  .img-a {
+    display: none;
+  }
+
+  .img-contact {
+    display: flex;
+  }
+  .header-b h1 {
+    font-size: 50px;
+    text-align: center;
+  }
 }
