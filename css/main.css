@@ -1,0 +1,91 @@
+/* lobster-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lobster-v32-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1317px;
+  margin: auto;
+  padding: 20px;
+}
+.header-b {
+  height: 100%;
+  background-image: url("../img/img-eng-katta-coffee.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.div-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-a {
+  a:hover {
+    font-size: 15px;
+    color: rgb(182, 120, 5);
+    background-color: rgb(10, 31, 71);
+    border-radius: 60px;
+  }
+  a {
+    padding: 33px;
+    text-decoration: none;
+
+    color: aliceblue;
+  }
+}
+.div-nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+  h1 {
+    line-height: 100%;
+    font-size: 100px;
+    font-family: "Lobster";
+    color: aliceblue;
+    font-weight: 400;
+  }
+}
+
+.img-main {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .header-b h1 {
+    padding-right: 20px;
+    font-size: 80px;
+    text-align: center;
+  }
+  .imgr {
+    display: none;
+  }
+
+  .imgc {
+    padding-right: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .header-b {
+    background-image: url("../img/\ coffee-phone-version.png");
+  }
+}
